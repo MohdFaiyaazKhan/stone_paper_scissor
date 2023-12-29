@@ -77,15 +77,15 @@ function getComputerChoice(){
 }
 
 choices.forEach(function(ch){
-    ch.addEventListener("click",play)
-    ch.addEventListener("touchend",play)
+    ch.addEventListener("pointerup",play)
 })
 
-window.addEventListener("click",clearModal)
-window.addEventListener("tap",clearModal)
+// window.addEventListener("click",clearModal)
+window.addEventListener("pointerup",clearModal)
 
 function clearModal(e){
     if(e.target==modal){
-        modal.style.display = "none"
+        modal.style.display = "none";
     }
 }
+
