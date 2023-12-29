@@ -140,13 +140,9 @@ body {
 
 
 @media (max-width: 700px) {
-  .choice {
-    font-size: 110px;
+  .choices{
+    display: flex;
+    flex-direction: column;
   }
 }
 
-@media (max-width: 500px) {
-  .choice {
-    font-size: 80px;
-  }
-}

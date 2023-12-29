@@ -44,12 +44,12 @@
   
   @media (max-width: 700px) {
     .choice {
-      font-size: 110px;
+      font-size: 150px;
     }
   }
   
   @media (max-width: 500px) {
     .choice {
-      font-size: 80px;
+      font-size: 150px;
     }
   }
