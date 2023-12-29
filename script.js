@@ -78,9 +78,11 @@ function getComputerChoice(){
 
 choices.forEach(function(ch){
     ch.addEventListener("click",play)
+    ch.addEventListener("touchend",play)
 })
 
 window.addEventListener("click",clearModal)
+window.addEventListener("tap",clearModal)
 
 function clearModal(e){
     if(e.target==modal){
